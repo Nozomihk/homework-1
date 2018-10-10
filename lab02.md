@@ -75,3 +75,5 @@ title: 如何用Construct2制作猎人打怪小游戏
 
 我们还可以通过更改instance variables更改怪兽的寿命。点击右侧栏的monster，在左侧栏中选择instance variables，在弹窗中点击加号，命名为health，将value改为你希望的寿命值。同时，我们需要对event的设置进行相应的更改。回到event界面，找到Bullet - on collision with Monster，右击，选择replace action > substract > value:1。这样每次击中怪兽，怪兽会掉一滴血。选择add event： Monster -> Compare instance variable -> Health, Less or equal, 0；add action： Monster -> Spawn another object -> Explode, layer 1；add action：Monster -> Destroy
 ![2-5](images/2-5.jpg)
+
+最后我们来展示一下成果![play](images/play.gif)
