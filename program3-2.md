@@ -23,3 +23,15 @@
     int y = w + x;
 }
 ![add](images/add.jpg)
+
+##任务二
+
+(1)1.
+2.
+
+(2)1.int main() {
+    int y = 0;
+    for(int i = 10;i > 0; --i) {
+        y = y + i;
+    }
+}
