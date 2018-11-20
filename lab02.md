@@ -3,18 +3,18 @@ layout: default
 title: 如何用Construct2制作猎人打怪小游戏
 ---
 
-#如何用Construct2制作猎人打怪小游戏
+# 如何用Construct2制作猎人打怪小游戏
 
-##前期准备工作
+## 前期准备工作
 
 前往https://www.scirra.com/construct2 下载并安装construct2
 
-##开始制作
+## 开始制作
 
 打开construct2,如图操作。
 ![2-1](images/2-1.jpg)
 
-##Layout
+## Layout
 
 1、选取背景图片（例如下图）进行平铺
 ![bg](images/bg.png)
@@ -55,7 +55,7 @@ title: 如何用Construct2制作猎人打怪小游戏
 
 按住control，拖拽怪兽即可。我们总共需要8只怪兽，分布尽量分散。
 
-##Event
+## Event
 
 我们将注意力转移到event sheet1。我们在event界面双击，选择system > Everytick。继续选择右侧的"add action",这回选择player > set angle toward position，在X、Y处分别输入Mouse.X、Mouse.Y。![2-4](images/2-4.jpg)
 
