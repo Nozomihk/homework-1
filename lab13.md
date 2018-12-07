@@ -82,17 +82,17 @@ void Snake_Move(int snakelen){
         case 'a':
         case 'A':if(map[snake_X[snakelen - 1]][snake_Y[snakelen - 1] - 1] == ' '){
             int dy = -1,dx = 0;
-			BodyMove(snakelen);
+	    BodyMove(snakelen);
             HeadMove(dy,dx,snakelen);
         }
 		else{
 			gameover = 1;
 		}break;
         case 'w':
-        case 'W':if(map[snake_X[snakelen - 1] - 1][snake_Y[snakelen - 1]] == ' '){
-            BodyMove(snakelen);
-            int dy = 0,dx = -1;
-            HeadMove(dy,dx,snakelen);
+        case 'W':if(map[snake_X[snakelen - 1] - 1][snake_Y[snakelen - 1]] == ' '){       
+                 int dy = 0,dx = -1;
+	         BodyMove(snakelen);
+                 HeadMove(dy,dx,snakelen);
         }
 		else{
 			gameover = 1;
@@ -108,9 +108,9 @@ void Snake_Move(int snakelen){
 		}break;
         case 'd':
         case 'D':if(map[snake_X[snakelen - 1]][snake_Y[snakelen - 1] + 1] == ' '){
-            BodyMove(snakelen);
-            int dy = 1,dx = 0;
-            HeadMove(dy,dx,snakelen);
+                    int dy = 1,dx = 0;
+	            BodyMove(snakelen);
+                    HeadMove(dy,dx,snakelen);
         }
 		else{
 			gameover = 1;
