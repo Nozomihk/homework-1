@@ -1,6 +1,7 @@
 # 令人头大的贪吃蛇
-```
+
 ## snake_move
+```
 #include<stdio.h>
 #include<stdlib.h>           
 #include<time.h>
