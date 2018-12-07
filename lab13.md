@@ -1,4 +1,5 @@
 # 令人头大的贪吃蛇
+```
 ## snake_move
 #include<stdio.h>
 #include<stdlib.h>           
@@ -123,9 +124,10 @@ int main(void){
     }
     Gameover();
 }
-
+```
 
 ## snake_eat
+```
 #include<stdio.h>
 #include<stdlib.h>           
 #include<time.h>
@@ -287,3 +289,4 @@ int main(void){
     }
     Gameover();
 }
+```
