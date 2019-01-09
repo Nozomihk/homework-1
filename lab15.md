@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # 智能蛇
-=======
-#智能蛇
->>>>>>> ab8fb0fe4a514826feb760b7c51968598fd6938a
 ```
 # include <stdio.h>
 # include <string.h>
@@ -281,8 +277,4 @@ int Judgefood()
         return 1;
     return 0;
 }
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> ab8fb0fe4a514826feb760b7c51968598fd6938a
